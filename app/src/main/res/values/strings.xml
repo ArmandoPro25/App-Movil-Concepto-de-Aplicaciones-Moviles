@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Conceptos_Aplicaciones</string>
+    <string name="apps_web">
+        Aplicaciones Web\n\n
+
+        Las aplicaciones web son aquellas que se ejecutan en un navegador y no requieren instalación en el dispositivo. Se desarrollan con tecnologías web como HTML, CSS y JavaScript y pueden adaptarse a cualquier pantalla.\n\n
+
+Características principales:\n
+✅ Accesibles desde cualquier dispositivo con conexión a Internet.\n
+✅ No requieren instalación, se acceden mediante una URL.\n
+✅ Independientes del sistema operativo, funcionan en Windows, macOS, Android e iOS.\n
+✅ Actualización centralizada, sin necesidad de que los usuarios descarguen nuevas versiones.\n\n
+
+Tipos de aplicaciones web:\n
+Web Apps Tradicionales: Recargan la página con cada acción (ej. sistemas administrativos).\n
+Single Page Applications (SPA): Cargan una sola vez y actualizan dinámicamente el contenido sin recargar (ej. Gmail, Trello).\n
+Progressive Web Apps (PWA): Se comportan como una app nativa, con acceso a notificaciones, modo offline y atajos en la pantalla de inicio (ej. Twitter Lite).\n\n
+Tecnologías comunes:\n
+Frontend: Angular, React, Vue.js.\n
+Backend: Node.js, Django, Laravel.\n
+PWA: Service Workers, Web App Manifest.\n\n
+Ventajas:\n
+✔️ Compatibles con múltiples dispositivos.\n
+✔️ No ocupan espacio en el almacenamiento del usuario.\n
+✔️ Fácil desarrollo y mantenimiento.\n\n
+
+Desventajas:\n
+❌ Requieren Internet para funcionar correctamente (excepto PWA).\n
+❌ Menor rendimiento en comparación con apps nativas.\n
+❌ Acceso limitado a hardware del dispositivo (cámara, sensores, etc.).\n\n
+
+Las apps web son ideales para sistemas accesibles desde cualquier lugar sin la necesidad de descargas o instalaciones.
+    </string>
+    <string name="apps_multiplataforma">
+        Aplicaciones Multiplataforma\n\n
+
+        Las aplicaciones móviles multiplataforma son aquellas que se desarrollan una sola vez y pueden ejecutarse en varios sistemas operativos, como Android e iOS, utilizando un único código base.\n\n
+
+Características principales:\n
+✅ Código compartido: Se escribe una vez y se ejecuta en múltiples plataformas.\n
+✅ Desarrollo más rápido: Se reduce el tiempo y costo en comparación con las apps nativas.\n
+✅ Interfaz adaptable: Se pueden personalizar elementos para cada sistema operativo.\n\n
+
+Tecnologías y frameworks populares:\n
+Flutter (Dart) → Desarrollado por Google, con alto rendimiento y widgets nativos.\n
+React Native (JavaScript/TypeScript) → Desarrollado por Meta, permite usar React para apps móviles.\n
+Ionic (HTML, CSS, JavaScript) → Usa tecnologías web para crear apps híbridas.\n
+Xamarin (C#) → De Microsoft, permite compartir código entre Android e iOS.\n\n
+Ventajas:\n
+✔️ Reducción de costos y tiempo de desarrollo.\n
+✔️ Código único para varias plataformas.\n
+✔️ Facilidad de mantenimiento y actualización.\n\n
+
+Desventajas:\n
+❌ Menor rendimiento en comparación con las apps nativas.\n
+❌ Dependencia de librerías y frameworks externos.\n
+❌ Puede haber limitaciones en el acceso a funcionalidades del hardware.\n\n
+
+Las apps multiplataforma son ideales cuando se busca rapidez y compatibilidad sin la necesidad de un desarrollo completamente nativo.\n
+    </string>
+    <string name="apps_nativas">
+
+        Apps Nativas\n\n
+
+        Las aplicaciones móviles nativas son aquellas desarrolladas específicamente para un sistema operativo, como Android o iOS, utilizando los lenguajes y herramientas recomendadas por cada plataforma.\n\n
+
+Características principales:\n
+✅ Rendimiento óptimo: Aprovechan al máximo el hardware y software del dispositivo.\n
+✅ Interfaz fluida y nativa: Se integran perfectamente con el sistema operativo.\n
+✅ Acceso a funciones del dispositivo: Pueden usar la cámara, GPS, sensores, almacenamiento, etc.\n
+✅ Disponibles en tiendas oficiales: Se distribuyen en Google Play (Android) y App Store (iOS).\n\n
+
+Lenguajes y herramientas de desarrollo:\n
+Android: Java, Kotlin (con Android Studio).\n
+iOS: Swift, Objective-C (con Xcode).\n\n
+Ventajas:\n
+✔️ Mejor rendimiento y experiencia de usuario.\n
+✔️ Mayor seguridad y estabilidad.\n
+✔️ Integración total con el sistema y hardware.\n\n
+
+Desventajas:\n
+❌ Mayor costo y tiempo de desarrollo.\n
+❌ Se requiere mantenimiento separado para cada plataforma.\n\n
+
+Si necesitas compatibilidad multiplataforma, existen alternativas como Flutter, React Native o Kotlin Multiplatform.</string>
+</resources>
